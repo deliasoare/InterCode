@@ -7,7 +7,7 @@
 
 1. **Clonați repository-ul:**
 ```
-git clone https://github.com/username/vite-project.git
+git clone https://github.com/deliasoare/InterCode
 cd intercode
 ```
 
