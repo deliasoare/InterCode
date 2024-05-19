@@ -1,0 +1,55 @@
+
+.header {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    border-bottom: 1px solid $main;
+    h2 {
+        text-shadow: $secondary 1px 0 10px;   
+        a {
+            color: $main;
+            text-decoration: none;
+        }
+    }
+
+    .left-side {
+        display: flex;
+    }
+    .logo {
+        max-height: 60px;
+    }
+
+    .right-side {
+        display: flex;
+        align-items: center;
+        .cursuri, .despre {
+            margin-right: 20px;
+            color: $main;
+            cursor: pointer;
+            text-decoration: none;
+            &:hover {
+                color: $secondary;
+            }
+        }
+        .get-started {
+            padding: 0.7em;
+            background: $main;
+            cursor: pointer;
+            border-radius: 5px;
+            color: $secondary;
+            outline: none;
+            border: none;
+            box-shadow: 5px 5px $secondary;
+            transition: 0.2s;
+
+            &:hover {
+                background: $secondary;
+                color: $main;
+                box-shadow: 5px 5px $main;
+
+            }
+        }
+    }
+}
+

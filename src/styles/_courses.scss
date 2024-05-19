@@ -1,0 +1,77 @@
+
+.courses {
+    padding: 1em 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    background: $courses;
+    height: 100%;
+    h1 {
+        text-align: center;
+        color: $main;
+    }
+
+    .course {
+        width : 80%;
+        background: #fff;
+        padding: 1.5em;
+        border-radius: 7px;
+        box-shadow: 4px 4px $main;
+
+        .top-side {
+            display: flex;
+            justify-content: space-between;
+            padding: 1em;
+            align-items: center;
+            .left {
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                .logo {
+                    img {
+                        max-height: 100px;
+                    }
+                }
+                a {
+                    text-decoration: none;
+                    color: black;
+                    &:hover {
+                        color: $main;
+                    }
+                }
+                .title {
+                    font-size: 1.5rem;
+                }
+            }
+            .right {
+                button {
+                    padding: 1em 1.5em;
+                    font-size: 0.9rem;
+                    border-radius: 8px;
+                    border: none;
+                    background: $third;
+                    color: #fff;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .bottom-side {
+            color: $courseWriting;
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    .course {
+        width: 90%;
+    }
+    .top-side {
+        gap: 15px;
+        flex-direction: column;
+    }
+    .left {
+        flex-direction: column;
+    }
+}
