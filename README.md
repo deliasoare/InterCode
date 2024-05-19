@@ -1,8 +1,22 @@
-# React + Vite
+## Cerințe tehnice
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- **Node.js**: Versiunea 14 sau mai recentă
+- **npm**: Versiunea 6 sau mai recentă (npm vine împreună cu Node.js)
 
-Currently, two official plugins are available:
+## Instalare
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **Clonați repository-ul:**
+```
+git clone https://github.com/username/vite-project.git
+cd intercode
+```
+
+2. **Instalați dependențele:**
+```
+npm install
+```
+
+## Rulare
+```
+npm run dev
+```
